@@ -15,3 +15,4 @@ https://raw.githubusercontent.com/Israr-Engineering/PMM-03XX-CPUs-SWITCHES/main/
 https://raw.githubusercontent.com/Israr-Engineering/PMM-10XX-SUBSTATION/main/custom_Board/package_PMM-10XX-SUBSTATION_index.json
 https://raw.githubusercontent.com/Israr-Engineering/PMM-05XX-CONVERTERS/main/custom_Board/package_PMM-05XX-CONVERTERS_index.json
 https://raw.githubusercontent.com/Israr-Engineering/PMM-04XX-GATEWAYS/main/custom_Board/package_PMM-04XX-GATEWAYS_index.json
+https://raw.githubusercontent.com/Israr-Engineering/PMM-11XX-RENEWABLE/main/custom_Board/package_PMM-11XX-RENEWABLE_index.json
