@@ -85,6 +85,34 @@ extern "C" unsigned int PINCOUNT_fn();
 #define PIN_LED3             PIN_LED_TXL
 #define LED_BUILTIN          PIN_LED_13
 
+
+
+#define PMM_A0          (25ul) //PA02 
+#define PMM_A1          (46ul) //PA03 
+#define PMM_A2          (6ul) //PA08 
+#define PMM_A3          (7ul) //PA09 
+#define PMM_A4          (15ul) //PB02
+#define PMM_A5          (10ul) //PA06 
+#define PMM_A6          (11ul) //PA07 
+#define PMM_A7          (4ul) //PA04 
+#define PMM_A8          (5ul) //PA05 
+
+#define PMM_PWM0        (8ul) //PA10 
+#define PMM_PWM1        (31ul) //PA27 
+#define PMM_PWM2        (14ul) //PA21 
+#define PMM_PWM3        (13ul) //PA20 
+#define PMM_PWM4        (23ul) //PA19 
+#define PMM_PWM5        (24ul) //PA17 
+#define PMM_PWM6        (3ul) //PB09 
+
+#define PMM_DI_LossOfPower      (9ul)//PA11 : Digital Input :loos of power 
+#define PMM_DO_SCSn             (12u)   //PA13 : Digital output : Ethernet controller chip select command  
+#define PMM_INT_IO2             (32ul)  //PA28 
+#define PMM_INT_IO1             (16ul)  //PB03 
+#define PMM_ESP_SCK             (2ul) //PB08 
+#define PMM_RS485_SCK           (18ul) //PA14 
+
+
 /*
  * Analog pins
  */
@@ -101,22 +129,28 @@ extern "C" unsigned int PINCOUNT_fn();
 #define PIN_A9               (0ul)
 
 
-#define PIN_DAC0             (14ul)
+//#define PIN_DAC0             (14ul)
 
-static const uint8_t A0  = PIN_A0;
-static const uint8_t A1  = PIN_A1;
-static const uint8_t A2  = PIN_A2;
-static const uint8_t A3  = PIN_A3;
-static const uint8_t A4  = PIN_A4;
-static const uint8_t A5  = PIN_A5;
+static const uint8_t A0  = PMM_A0;
+static const uint8_t A1  = PMM_A1;
+static const uint8_t A2  = PMM_A2;
+static const uint8_t A3  = PMM_A3;
+static const uint8_t A4  = PMM_A4;
+static const uint8_t A5  = PMM_A5;
+static const uint8_t A6  = PMM_A6;
+static const uint8_t A7  = PMM_A7;
+static const uint8_t A8  = PMM_A8;
 
-static const uint8_t A6  = PIN_A6;
-static const uint8_t A7  = PIN_A7;
-static const uint8_t A8  = PIN_A8;
-static const uint8_t A9  = PIN_A9;
+static const uint8_t PWM0  = PMM_PWM0;
+static const uint8_t PWM1  = PMM_PWM1;
+static const uint8_t PWM2  = PMM_PWM2;
+static const uint8_t PWM3  = PMM_PWM3;
+static const uint8_t PWM4  = PMM_PWM4;
+static const uint8_t PWM5  = PMM_PWM5;
+static const uint8_t PWM6  = PMM_PWM6;
 
 
-static const uint8_t DAC0 = PIN_DAC0;
+//static const uint8_t DAC0 = PIN_DAC0;
 #define ADC_RESOLUTION		12
 
 // Other pins
