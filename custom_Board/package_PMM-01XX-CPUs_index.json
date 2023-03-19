@@ -15,8 +15,8 @@
           "category": "Contributed",
           "url": "https://github.com/Israr-Engineering/PMM-01XX-CPUs/blob/main/custom_Board/PMM.zip?raw=true",
           "archiveFileName": "PMM.zip",
-          "checksum": "SHA-256:65D002DE38EA8B93C280FEDC378795115DD5D6C531413F67E6AB07A665CB6E4E",
-          "size": "7751165",
+          "checksum": "SHA-256:761E993C35F085765C8E306C333D2008066311EA9E5E993621C2E8D7CAFF1CD6",
+          "size": "7751275",
           "boards": [
 
             {"name": "PMM0102"},
